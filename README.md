@@ -136,7 +136,7 @@ Rank   Webpage ID   PageRank Value
 - **Time Complexity**: O(I × N × E/P) where I=iterations, E=edges
 - **Convergence**: 4 iterations for stable rankings
 
-## 🔧 HPC Environment Setup
+## HPC Environment Setup
 
 ### Required Modules
 ```bash
@@ -154,7 +154,7 @@ module load mvapich2/gcc/64/2.2rc1
 #SBATCH --partition=short-40core
 ```
 
-## 📈 Results & Analysis
+## Results & Analysis
 
 The implementation successfully:
 - Processes large-scale web graph data
@@ -162,17 +162,15 @@ The implementation successfully:
 - Demonstrates parallel computing efficiency
 - Validates results through taxation method convergence
 
-## 🎓 Academic Context
+## Academic Context
 
-**Course**: AMS598 - Advanced Computational Methods  
-**Semester**: Fall 2025  
 **Focus Areas**: 
 - Parallel Algorithm Design
 - High-Performance Computing
 - Graph Theory Applications
 - Distributed Systems
 
-## 🤝 Contributing
+## Contributing
 
 This is an academic project, but suggestions for improvements are welcome:
 1. Fork the repository
