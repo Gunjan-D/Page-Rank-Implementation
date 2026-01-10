@@ -4,18 +4,18 @@
 [![Python](https://img.shields.io/badge/Python-3.x-green.svg)](https://www.python.org/)
 [![SLURM](https://img.shields.io/badge/SLURM-HPC_Scheduler-orange.svg)](https://slurm.schedmd.com/)
 
-## 🚀 Project Overview
+## Project Overview
 
 This project implements the **PageRank algorithm** using **MPI (Message Passing Interface)** with a **Map/Reduce pattern** for parallel computation. The implementation demonstrates distributed computing concepts by calculating webpage rankings across multiple processes, making it suitable for high-performance computing (HPC) environments.
 
-## 📊 What is PageRank?
+## What is PageRank?
 
 PageRank is Google's original algorithm for ranking web pages in search results. It works by:
 - Treating the web as a graph where pages are nodes and links are edges
 - Computing the "importance" of each page based on the links pointing to it
 - Using the **taxation method** with a damping factor to prevent rank sinking
 
-## 🏗️ Architecture & Algorithm
+## Architecture & Algorithm
 
 ### Core Algorithm Implementation
 - **Algorithm**: PageRank with Taxation Method
@@ -60,7 +60,7 @@ Where:
 - os             # File system operations
 ```
 
-## 🎯 Key Features
+## Key Features
 
 - **✅ Scalable Architecture**: Works with arbitrary number of MPI processes
 - **✅ Load Balancing**: Distributes nodes evenly across processes
@@ -69,7 +69,7 @@ Where:
 - **✅ HPC Ready**: SLURM integration for cluster deployment
 - **✅ Multiple Output Formats**: Text and JSON results
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 project2/
@@ -80,7 +80,7 @@ project2/
 └── README.md                # This documentation
 ```
 
-## 🚀 Usage
+## Usage
 
 ### Running on HPC Cluster
 ```bash
@@ -101,7 +101,7 @@ NUM_ITERATIONS = 4      # Map/reduce iterations
 PROCESSES = 5           # Number of MPI processes
 ```
 
-## 📊 Input/Output
+## Input/Output
 
 ### Input Format
 - **Data Files**: `data1.txt` to `data6.txt`
@@ -129,7 +129,7 @@ Rank   Webpage ID   PageRank Value
 ...
 ```
 
-## ⚡ Performance Characteristics
+## Performance Characteristics
 
 - **Parallel Efficiency**: Linear scaling with MPI processes
 - **Memory Usage**: O(N/P) per process where N=nodes, P=processes
