@@ -177,7 +177,7 @@ This is an academic project, but suggestions for improvements are welcome:
 2. Create a feature branch
 3. Submit a pull request
 
-## 📝 License
+## License
 
 This project is created for academic purposes. Please refer to your institution's academic integrity policies.
 
